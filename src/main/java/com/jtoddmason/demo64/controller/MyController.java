@@ -20,7 +20,7 @@ public class MyController {
     public List<City> findCities(Model model) {
 
     	List<City> cities = (List<City>) cityService.findAll();
-
+		System.out.println("We entered the findCities Method");
 
         return cities;
     }
