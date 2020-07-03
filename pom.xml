@@ -65,9 +65,13 @@
                 <version>1.3.0</version>
                 <configuration>
                     <to>
-                        <image>registry.hub.docker.com/toddmason/demo64:${maven.build.timestamp}</image>
-
-                        <auth>
+                        <!-- Build an image on Docker Hub with a time stamp -->
+<!--                        <image>registry.hub.docker.com/toddmason/demo64:${maven.build.timestamp}</image>-->
+                        <!-- Build an image on Docker Hub without a timestamp    -->
+                        <image>registry.hub.docker.com/toddmason/demo64</image>
+                        <!-- This builds a local image. Use jib.dockerBuild                        -->
+<!--                        <image>demo64</image>-->
+                    <auth>
                         <username>toddmason</username>
                         <password>mustang1964</password>
                     </auth>
